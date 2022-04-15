@@ -1,0 +1,5 @@
+opencv_contrib_python==4.5.5.64
+streamlit==0.84.0
+numpy==1.21.5
+Pillow==9.1.0
+yolov5==6.1.0
