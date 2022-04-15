@@ -20,7 +20,7 @@ img = Image.open("./line.jpg")
 st.image(img, width=750)
 
 ##### CHARGEMENT DE L'IMAGE #################
-uploaded_image = st.sidebar.file_uploader("Charger votre image", type=['jpg', "png", "tiff", "jpeg"], key=3)
+uploaded_image = st.sidebar.file_uploader("Charger votre image", type=['jpg', "png", "tiff", "jpeg"])
 
 if uploaded_image is not None:
     with tempfile.NamedTemporaryFile(delete=False) as tmp_image_file1:
