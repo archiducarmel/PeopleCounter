@@ -49,10 +49,11 @@ if image_is_valid:
 
     st.image(img_results, width=500)
 
-    col1, col2, col3, col4 = st.columns(4)
+    #col1, col2, col3, col4 = st.columns(4)
 
-    col2.write("Personnes détectées :")
-    col3.write(len(human_bboxes))
+    #col2.write("Personnes détectées :")
+    #col3.write(len(human_bboxes))
+    st.info("Personnes détectées : {}".format(len(human_bboxes)))
 
 
 
